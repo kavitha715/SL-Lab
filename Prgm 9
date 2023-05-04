@@ -1,0 +1,4 @@
+arr = ["bvrit", 4.5, Time.now]
+for array_element in arr
+          puts array_element
+end
