@@ -1,0 +1,4 @@
+my @names = ('KAVITHA','KITTY','CHINTU');
+my $first = shift @names;
+print "$first\n";
+print "@names\n";
