@@ -1,0 +1,2 @@
+$greeting = "Heyy";
+print "It matches\n" if "Heyy Hello" =~ /$greeting/;
