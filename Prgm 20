@@ -1,0 +1,11 @@
+use strict;
+use warnings;
+
+my $filename = shift @ARGV;
+
+open(my $fh, '<', $filename) or die "Can't open $filename: $!";
+
+my @lines = reverse <$fh>;
+foreach my $line (@lines) {
+    print $line;
+}
