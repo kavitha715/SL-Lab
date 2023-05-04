@@ -1,0 +1,10 @@
+puts "Enter p, q, r Values:"
+p,q,r = gets.to_i, gets.to_i, gets.to_i
+
+if p >= q and p >= r
+     puts "p = #{p} is greatest."
+elsif q >= r and q >= p
+     puts "q = #{q} is greatest."
+else
+     puts "r = #{r} is greatest."
+end
