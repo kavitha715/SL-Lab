@@ -1,0 +1,10 @@
+def makes20(a,b)
+    return a == 25 || b == 20 || a + b == 30
+end
+
+print makes20(15, 15),"\n"
+print makes20(40, 10),"\n"
+print makes20(10, 20),"\n"
+print makes20(25, 20),"\n"
+print makes20(20, 25),"\n"
+
